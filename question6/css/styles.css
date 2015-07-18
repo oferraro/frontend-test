@@ -1,0 +1,78 @@
+#my-chart { background-color: #EEEEEE }
+    .top-container {
+        background-color: #F1F3F4;
+    }
+    .top-blocks {
+        line-height: 90px;
+        border-right: 1px solid #363A42;
+        border-left: 1px solid #363A42;
+        text-align: center;
+        margin: 0; padding: 0;
+        min-height: 195px;
+        background-color: #363A42;
+    }
+    .top-blocks .price {
+        font-size: 50px;
+        color: white;
+    }
+    .top-blocks p {
+        color: #BAC4CC;
+        font-size: 25px;
+    }
+    .top-blocks:hover {
+        background-color: #6D7E8C;
+    }
+    .nav-tabs {
+        border: 0;
+    }
+    .nav-tabs>li>a {
+        border-radius: 0 0 8px 8px;
+    }
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover
+    .centered {
+        background-color: #EEEEEE;
+        width: 300px;
+    }    
+    .centered {
+        text-align: center;
+        display: block; 
+        margin: 0 auto;
+    }
+    .col-xs-15{
+        width:20%;
+    }
+    .bottom {
+        background-color: #F1F3F4;
+    }
+    bottom .div {
+        display: inline-block; 
+    }
+    #last-week li {
+        line-height: 80px;
+    }
+    .colored-bullet {
+        list-style-type: none;
+        margin: 0;
+        padding: 0px 0px 1px 50px;
+        vertical-align: middle;
+    }
+    .colored-bullet1 {
+        background: url(../imgs/bullet1.png) no-repeat 0px 27px transparent;
+    }
+    .colored-bullet2 {
+        background: url(../imgs/bullet2.png) no-repeat 0px 27px transparent;
+    }
+    #last-week .price {
+        float: right;
+        margin-right: 20px;
+    }
+    .icons {
+        text-align: center;
+    }
+    .glyphicon {
+        margin-top: 12px;
+        font-size: 50px;
+    }
+    .icons.active p {
+        font-weight: bold;
+    }
