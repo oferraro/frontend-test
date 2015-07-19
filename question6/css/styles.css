@@ -207,6 +207,7 @@ line .ct-bar  {
  vertical-align: top;
  display: inline-block;
  height: 20px;
+ border-radius: 75px;
  -moz-border-radius:75px;
  -webkit-border-radius: 75px;
  width: 20px;
