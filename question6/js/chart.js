@@ -1,33 +1,31 @@
 $().ready(function () {
-    var data = {
-      labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-        series: [
-        [1100, 900, 800, 860, 1050, 1020]
-      ]
-    };
-
+    
     var options = {
-      seriesBarDistance: 15
-    };
+        low: 0,
+        high: 1500,
+        onlyInteger: true,
+        stackBars: true,
+        axisY: {
+            onlyInteger: true,
+            labelInterpolationFnc: function(value) {
+            return value;         
+            }
+        }    
+};
+    
+    new Chartist.Bar('.ct-chart', {
+      labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+      series: [
+        [210, 400, 210, 300, 400, 210, 380],
+        [1010, 980, 800, 950, 940, 1090, 1070]
+      ]
+    }, options
+    ).on('draw', function(data) {
+      if(data.type === 'bar') {
+        data.element.attr({
+          style: 'stroke-width: 8%'
+        });
+      }
+    });
 
-    var responsiveOptions = [
-      ['screen and (min-width: 641px) and (max-width: 1024px)', {
-        seriesBarDistance: 10,
-        axisX: {
-          labelInterpolationFnc: function (value) {
-            return value;
-          }
-        }
-      }],
-      ['screen and (max-width: 640px)', {
-        seriesBarDistance: 5,
-        axisX: {
-          labelInterpolationFnc: function (value) {
-            return value[0];
-          }
-        }
-      }]
-    ];
-
-    new Chartist.Bar('.ct-chart', data, options, responsiveOptions);
 });

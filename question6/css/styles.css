@@ -1,9 +1,53 @@
-#my-chart { background-color: #EEEEEE }
+    body {
+        font-family: 'Noto Sans', sans-serif;
+        margin: 0; padding: 0;
+    }
+    .chart-container {
+        margin-top: 0;
+        padding-top: 80px;
+        line-height: 20px;
+        background-color: #EEEEEE;
+    }
+    .title-social .bullet, .title-adwords .bullet {
+        margin-left: 15px;
+        margin-right: 15px; 
+     }
+    .chart-container .chart-titles {
+        font-size: 30px;
+        color: #8795A0;
+    }
+    .title-social {
+        text-align: right;
+        padding-right: 80px;
+    }
+    .tabbable {
+        margin-bottom: 15%;
+    }
+    #my-chart {
+        width: 80%;
+        display: block;
+        margin: 30px auto;
+    }
+    .ct-chart .ct-label{
+        font-size: 15px
+    }
+    .ct-label.ct-horizontal {
+        
+    }
+    .ct-chart.ct-minor-third:after{
+        content:"";display:table;clear:both}.ct-chart.ct-minor-third>svg{display:block;position:absolute;top:0;left:0}.ct-chart.ct-major-third{display:block;position:relative;width:100%}.ct-chart.ct-major-third:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:80%}.ct-chart.ct-major-third:after{content:"";display:table;clear:both}.ct-chart.ct-major-third>svg{display:block;position:absolute;top:0;left:0}.ct-chart.ct-perfect-fourth{display:block;position:relative;width:100%}.ct-chart.ct-perfect-fourth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:75%}.ct-chart.ct-perfect-fourth:after{content:"";display:table;clear:both}.ct-chart.ct-perfect-fourth>svg{display:block;position:absolute;top:0;left:0}.ct-chart.ct-perfect-fifth{display:block;position:relative;width:100%}.ct-chart.ct-perfect-fifth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:66.6666666667%}.ct-chart.ct-perfect-fifth:after{content:"";display:table;clear:both}.ct-chart.ct-perfect-fifth>svg{display:block;position:absolute;top:0;left:0}.ct-chart.ct-minor-sixth{display:block;position:relative;width:100%}.ct-chart.ct-minor-sixth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:62.5%}.ct-chart.ct-minor-sixth:after{content:"";display:table;clear:both}.ct-chart.ct-minor-sixth>svg{display:block;position:absolute;top:0;left:0}.ct-chart.ct-golden-section{display:block;position:relative;width:100%}.ct-chart.ct-golden-section:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:61.804697157%}.ct-chart.ct-golden-section:after{content:"";display:table;clear:both}.ct-chart.ct-golden-section>svg{display:block;position:absolute;top:0;left:0}.ct-chart.ct-major-sixth{display:block;position:relative;width:100%}.ct-chart.ct-major-sixth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:60%}.ct-chart.ct-major-sixth:after{content:"";display:table;clear:both}.ct-chart.ct-major-sixth>svg{display:block;position:absolute;top:0;left:0}.ct-chart.ct-minor-seventh{display:block;position:relative;width:100%}.ct-chart.ct-minor-seventh:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:56.25%}.ct-chart.ct-minor-seventh:after{content:"";display:table;clear:both}.ct-chart.ct-minor-seventh>svg{display:block;position:absolute;top:0;left:0}.ct-chart.ct-major-seventh{display:block;position:relative;width:100%}.ct-chart.ct-major-seventh:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:53.3333333333%}.ct-chart.ct-major-seventh:after{content:"";display:table;clear:both}.ct-chart.ct-major-seventh>svg{display:block;position:absolute;top:0;left:0}.ct-chart.ct-octave{display:block;position:relative;width:100%}.ct-chart.ct-octave:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:50%}.ct-chart.ct-octave:after{content:"";display:table;clear:both}.ct-chart.ct-octave>svg{display:block;position:absolute;top:0;left:0}.ct-chart.ct-major-tenth{display:block;position:relative;width:100%}.ct-chart.ct-major-tenth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:40%}.ct-chart.ct-major-tenth:after{content:"";display:table;clear:both}.ct-chart.ct-major-tenth>svg{display:block;position:absolute;top:0;left:0}.ct-chart.ct-major-eleventh{display:block;position:relative;width:100%}.ct-chart.ct-major-eleventh:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:37.5%}.ct-chart.ct-major-eleventh:after{content:"";display:table;clear:both}.ct-chart.ct-major-eleventh>svg{display:block;position:absolute;top:0;left:0}.ct-chart.ct-major-twelfth{display:block;position:relative;width:100%}.ct-chart.ct-major-twelfth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:33.3333333333%}.ct-chart.ct-major-twelfth:after{content:"";display:table;clear:both}.ct-chart.ct-major-twelfth>svg{display:block;position:absolute;top:0;left:0}.ct-chart.ct-double-octave{display:block;position:relative;width:100%}.ct-chart.ct-double-octave:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:25%}.ct-chart.ct-double-octave:after{content:"";display:table;clear:both}.ct-chart.ct-double-octave>svg{display:block;position:absolute;top:0;left:0
+    }
+    .container-fluid {
+        background-color: #EEEEEE;
+        margin: 0; padding: 0
+    }
     .top-container {
         background-color: #F1F3F4;
     }
+    p.title {
+        margin: 0;
+    }
     .top-blocks {
-        line-height: 90px;
         border-right: 1px solid #363A42;
         border-left: 1px solid #363A42;
         text-align: center;
@@ -11,28 +55,70 @@
         min-height: 195px;
         background-color: #363A42;
     }
-    .top-blocks .price {
-        font-size: 50px;
-        color: white;
-    }
     .top-blocks p {
         color: #BAC4CC;
-        font-size: 25px;
+        font-size: 40px;
+    }
+    .top-blocks .price {
+        font-family: "Helvetica Neue", HelveticaNeue, "TeX Gyre Heros", TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
+        padding-top: 40px;
+        font-size: 80px;
+        color: white;
+    }
+    .top-blocks .title {
+        padding-bottom: 40px;
     }
     .top-blocks:hover {
         background-color: #6D7E8C;
     }
+    .dollar-sign {
+        padding-left: 15px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #AAAFB3;
+    }
+    
     .nav-tabs {
+        font-size: 20px;
         border: 0;
+        width: 380px;
+        display: block;
+        margin: 0 auto;
     }
     .nav-tabs>li>a {
         border-radius: 0 0 8px 8px;
+        color: #6D7E8C;
     }
     .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover
-    .centered {
+    .centered, .nav-tabs>li.active>a:hover {
+        color: #24262B;
         background-color: #EEEEEE;
-        width: 300px;
-    }    
+    }
+    #my-chart {
+        margin-bottom: 55px;
+    }
+    #my-chart svg {
+        margin-top: 50px;
+    }
+    #my-chart svg .ct-grids .ct-grid.ct-horizontal{
+        display: none;
+    }
+    #my-chart svg .ct-grids .ct-vertical {
+    }
+    #my-chart svg .ct-grids .ct-vertical:nth-of-type(8) {
+        stroke: rgba(0,0,0,1);
+        stroke-width: 2px;         
+    }
+    #my-chart svg .ct-grids .ct-grid {
+        stroke-dasharray: 0;
+    }
+    #my-chart svg .ct-series.ct-series-b {
+        stroke-linecap: round;
+    }
+    #my-chart svg .ct-series.ct-series-a {
+        
+    }
+    
     .centered {
         text-align: center;
         display: block; 
@@ -42,29 +128,50 @@
         width:20%;
     }
     .bottom {
+        position: fixed;
+        bottom: 0; right: 0; left: 0;
+        margin: 20px 0 0 0;
+        font-size: 15px;
         background-color: #F1F3F4;
+        color: #6D7E8C;
     }
-    bottom .div {
+    .bottom .active {
+        color: #363A42;
+    }
+    .bottom .div {
         display: inline-block; 
     }
-    #last-week li {
-        line-height: 80px;
+    .bottom div p {
+        margin-top: 5px;
+    }
+    .row {
+        margin: 0;
+    }
+    #last-week .row:nth-of-type(1) {
+        margin-top: 95px;
+        margin-bottom: 120px;
+    }
+    #last-week .row {
+        position: relative;
+        height: 80px;
+    }
+    #last-week p {
+        vertical-align: middle;
+    }
+    #last-week .title {
+        position: absolute;
+        left: 20px;
+        font-size: 20px;
+    }
+    #last-week .price {
+        position: absolute;
+        font-size: 40px;
+        right: 40px;
     }
     .colored-bullet {
         list-style-type: none;
         margin: 0;
         padding: 0px 0px 1px 50px;
-        vertical-align: middle;
-    }
-    .colored-bullet1 {
-        background: url(../imgs/bullet1.png) no-repeat 0px 27px transparent;
-    }
-    .colored-bullet2 {
-        background: url(../imgs/bullet2.png) no-repeat 0px 27px transparent;
-    }
-    #last-week .price {
-        float: right;
-        margin-right: 20px;
     }
     .icons {
         text-align: center;
@@ -76,3 +183,79 @@
     .icons.active p {
         font-weight: bold;
     }
+
+.ct-chart .ct-series.ct-series-a .ct-bar,
+.ct-chart .ct-series.ct-series-a .ct-line,
+.ct-chart .ct-series.ct-series-a .ct-point  {
+    stroke: #93BE4C;
+}
+
+
+.ct-series-b .ct-bar, .ct-series-b .ct-line, .ct-series-b .ct-point, .ct-series-b .ct-slice-donut {
+    stroke: #D0DD36;
+}
+
+line .ct-bar  {
+  
+}
+
+#last-week .bullet {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.bullet {
+ vertical-align: top;
+ display: inline-block;
+ height: 20px;
+ -moz-border-radius:75px;
+ -webkit-border-radius: 75px;
+ width: 20px;
+}
+.bullet-light {
+    background-color: #D0DD36
+}
+.bullet-dark {
+    background-color: #93BE4C
+}
+
+@media (max-width: 350px) {
+    .top-blocks .price {
+        font-size: 40px;
+    }
+    .nav-tabs {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .glyphicon {
+        font-size: 20px;
+    }
+    .bottom {
+        padding-bottom: 20px;
+    }
+    .bottom p {
+        display: none;
+    }
+}
+@media (max-width: 450px) {
+    .ct-chart .ct-label{
+        font-size: 80%;
+    }
+    #last-week .bullet{
+        margin: 0;
+    }
+    #last-week .row, #last-week .title, #last-week .price  {
+        font-size: 80%;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 670px) {
+    .title-social, .title-adwords {
+        font-size: 15px;
+        width: initial;
+    }
+}
